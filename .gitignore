@@ -1,0 +1,7 @@
+
+# Sensible data
+/config.js
+
+# NPM dependencies
+/node_modules
+

@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "ghost blog on https://lean-stack.de",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lean-stack/blog.git"
+  },
+  "author": "Micha Alt <mail@lean-stack.de>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "ghost": "^0.7.0"
+  }
+}

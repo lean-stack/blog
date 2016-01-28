@@ -1,0 +1,30 @@
+// # Ghost Configuration
+
+var path = require('path'),
+    config;
+
+config = {
+    production: {
+        url: 'https://lean-stack.de',
+        mail: {},
+        database: {
+            client: 'mysql',
+            connection: {
+	      host     : '127.0.0.1',
+	      user     : 'dbuser',
+	      password : 'dbpasswd',
+	      database : 'ls_ghost',
+	      charset  : 'utf8'
+            },
+            debug: false
+        },
+
+        server: {
+            host: '127.0.0.1',
+            port: '2368'
+        }
+    }
+};
+
+// Export config
+module.exports = config;
