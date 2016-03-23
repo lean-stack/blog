@@ -1,7 +1,10 @@
 /* jshint node: true */
 
 var express = require('express');
+var leProxy = require('letsencrypt-express-proxy')('cb-server.eu');
+
 var app = express();
+app.use(leProxy);
 
 var ghost = require('ghost');  
 
